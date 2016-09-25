@@ -1,13 +1,13 @@
 Package: hgrecap
 Type: Package
-Title: What the Package Does (Title Case)
+Title: MCMC For Hypergeometric Capture-Recapture Data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Neal Fultz
+Maintainer: Neal Fultz <nfultz@gmail.com>
+Description: This provides a metropolis sampler for capture-recapture data.
+License: BSD
 LazyData: TRUE
-Imports: 
+Imports:
     Rcpp (>= 0.12.5)
-LinkingTo: 
-    Rcpp
+LinkingTo: Rcpp
+RoxygenNote: 5.0.1
